@@ -1,0 +1,26 @@
+{
+	"name": "pat-parser",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest -i --runInBand --coverage",
+		"debug": "cross-env TZ=UTC NODE_ENV=development tsnd --inspect-brk=127.0.0.1:3321 --respawn src/save.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"pngjs": "^3.4.0"
+	},
+	"devDependencies": {
+		"ts-jest": "^25.2.0",
+		"ts-node-dev": "^1.0.0-pre.44",
+		"typescript": "^3.8.2",
+		"@types/jest": "^25.1.2",
+		"@types/node": "^13.7.0",
+		"@types/pngjs": "^3.4.1",
+		"jest": "^25.1.0",
+		"jest-cli": "^25.1.0"
+	}
+}
